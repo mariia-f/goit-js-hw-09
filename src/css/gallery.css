@@ -1,0 +1,18 @@
+.gallery-image {
+  max-width: 100%;
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 24px;
+}
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
